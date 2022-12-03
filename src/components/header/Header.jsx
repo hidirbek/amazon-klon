@@ -55,7 +55,7 @@ function Header({setIsNavbarSearchActive}) {
         langs.map(langItem =>
           <option className='lang' defaultValue={localStorage.getItem("lang") === langItem ? true : false} key={uuidv4()} value={langItem}>{langItem.toUpperCase()}</option>
         )
-       }
+       }``
       </select>
     </header>
   );

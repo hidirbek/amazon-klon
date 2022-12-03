@@ -8,22 +8,30 @@ const Footer = () => {
   const knowUs = footerElements.filter((el) => {
     if (el.listTitle.includes("Get to Know Us")) {
       return el;
-    }
+    }else
+    return null
+
   });
   const makeMoney = footerElements.filter((el) => {
     if (el.listTitle.includes("Make Money with Us")) {
       return el;
-    }
-  });
+    }else
+    return null
+
+  }
+  );
   const paymentProducts = footerElements.filter((el) => {
     if (el.listTitle.includes("Amazon Payment Products")) {
       return el;
-    }
+    }else
+    return null
+
   });
   const helpYou = footerElements.filter((el) => {
     if (el.listTitle.includes("Let Us Help You")) {
       return el;
-    }
+    }else
+    return null
   });
   // console.log(knowUs);
   return (

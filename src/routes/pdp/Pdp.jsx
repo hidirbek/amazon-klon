@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { useParams, Link } from "react-router-dom";
+import { useParams } from "react-router-dom";
 import c from "./Pdp.module.css";
 import { BsStarFill, BsStarHalf } from "react-icons/bs";
 import axios from "axios";
